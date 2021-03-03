@@ -1,0 +1,41 @@
+  <div className={bclass.circle1body}>
+                <div id="halfcircle" className={bclass.circle1}>
+                <img src={vector} className={bclass.likebtn} alt="likebtn"></img>
+                <div>
+                <h1 className={bclass.text1}>0</h1> 
+                <h1 className={bclass.text2}>Label</h1>
+                </div>
+                </div>
+                </div>
+
+                
+                <div className={bclass.circle2body}>
+                <div className={bclass.circle2}>
+                <EventIcon color="white"/>
+                <div>
+                <h1 className={bclass.text1}>0</h1> 
+                <h1 className={bclass.text2}>Label</h1>
+                </div>
+                </div>
+                </div>
+                
+                <div className={bclass.circle2body}>
+                <div className={bclass.circle3}>
+                <EventIcon color="white"/>
+                <div>
+                <h1 className={bclass.text1}>0</h1> 
+                <h1 className={bclass.text2}>Label</h1>
+                </div>
+                </div>
+                </div>
+
+
+                <div className={bclass.circle2body}>
+                <div className={bclass.circle4}>
+                <EventIcon color="white"/>
+                <div>
+                <h1 className={bclass.text1}>0</h1> 
+                <h1 className={bclass.text2}>Label</h1>
+                </div>
+                </div>
+                </div>

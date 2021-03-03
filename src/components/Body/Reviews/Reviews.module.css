@@ -1,0 +1,175 @@
+.main{
+    margin-top: 50px;
+}
+.shadow {
+    -moz-box-shadow:    10px -10px rgb(54, 122, 157);
+    -webkit-box-shadow: 10px -10px rgb(54, 122, 157);
+    box-shadow:         10px -10px rgb(54, 122, 157);
+    
+  }
+
+
+.text{
+
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 10px;
+    
+
+}
+.text1{
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+    float: left;
+    
+    }
+    .text2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #E5C558;
+    float: right;
+    }
+.Title{
+    color: white;
+    
+
+}
+.Subtitle{
+    color: rgb(229,175,86);
+    
+}
+
+.rcards{
+    
+
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+
+}
+.icon{
+
+   
+    height: 50px;
+    width: 50px;
+    
+
+}
+.cardtext{
+    color: white
+}
+
+@media  (max-width: 1250px) {
+
+    .card1{
+        
+        margin-left: 300px;
+        
+        
+    }
+    .card3{
+        margin-right: 50px;
+    }
+    
+}
+@media  (max-width: 900px) {
+
+    .card1{
+        
+        margin-left: 600px;
+        
+        
+    }
+    .card3{
+        margin-right: 50px;
+    }
+    
+}
+@media  (max-width: 950px) {
+
+    .card1{
+        
+        margin-left: 600px;
+        
+        
+    }
+    .card3{
+        margin-right: 50px;
+    }
+    
+}
+@media  (max-width: 850px) {
+
+    .card1{
+        
+        margin-left: 750px;
+        
+        
+    }
+    .card3{
+        margin-right: 50px;
+    }
+    
+}
+
+@media  (max-width: 700px) {
+
+    .card1{
+        
+        margin-left: 900px;
+        
+        
+    }
+    .card3{
+        margin-right: 50px;
+    }
+    
+}
+
+@media  (max-width: 300px) {
+
+    .card1{
+        
+        margin-left: 900px;
+        
+        
+    }
+    .card3{
+        margin-right: 50px;
+    }
+    
+}
+
+.rcards{
+    
+}
+
+.rcards::-webkit-scrollbar{
+    
+    margin-left: 20px;
+    border-radius: 5px;
+  }
+ .rcards::-webkit-scrollbar-track{
+    background: none;
+    width: 1px;
+  }
+
+  .rcards::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(#674082, #0000);
+    border-radius: 30px;
+  }
+  .rcards::-webkit-scrollbar-thumb:hover{
+    background-image: linear-gradient(white);
+    
+  }

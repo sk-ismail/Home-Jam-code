@@ -1,0 +1,210 @@
+.navbar{
+    
+    position: fixed;
+   
+    
+    width: 100%;
+    
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    
+    height: 60px;
+    transition: all 0.3s;
+    transition-timing-function: ease-in;
+     
+}
+.navblack{
+    
+    
+    background-color: rgba(12, 7, 26, 0.9);
+}
+
+.logo{
+  position: fixed;
+   left: 150px;
+   width: 110px;
+  
+   object-fit: contain;
+   margin-top: -22px;
+   
+    
+}
+
+@media  (max-width: 850px) {
+
+  .logo{
+    position: fixed;
+     left: 30px;
+     width: 90px;
+     object-fit: contain;
+     margin-top: -20px;
+      
+  }
+
+  
+}
+
+.avatar0{
+
+   display: flex;
+   justify-content: space-evenly;
+    
+
+    color: white;
+}
+
+@media  (max-width: 850px) {
+
+  .avatar0{
+
+    display: none;
+
+ }
+ 
+  
+}
+
+
+
+
+.avatar{
+
+    display: flex;
+  position: fixed;
+  
+    right: 460px;
+    
+    width: 35px;
+    
+    object-fit: contain;
+    
+}
+
+.avatar1{
+
+    display: flex;
+  position: fixed;
+  
+    right: 350px;
+    
+    width: 35px;
+    
+    object-fit: contain;
+}
+.avatar2{
+
+    display: flex;
+  position: fixed;
+  
+    right: 280px;
+    
+    width: 35px;
+    
+    object-fit: contain;
+}
+.avatar3{
+
+    display: flex;
+  position: fixed;
+  
+    right: 190px;
+    margin-top: -5px;
+    
+    width: 35px;
+    
+    object-fit: contain;
+}
+
+.avatar6{
+  display: none;
+}
+.avatar7{
+  display: none;
+}
+
+@media  (max-width: 850px) {
+
+  .navatar{
+
+  display: inline-flex;
+   float: right;
+   
+    
+
+ }
+ 
+  
+}
+
+@media  (max-width: 850px) {
+
+  .avatar6{
+
+  
+    display: flex;
+  position: fixed;
+  
+    right: 130px;
+    
+    
+    
+    object-fit: contain;
+    color: white;
+
+
+ }
+ 
+  
+}
+@media  (max-width: 850px) {
+
+  .avatar7{
+
+    display: flex;
+    position: fixed;
+    
+      right: 80px;
+      
+      width: 1.2rem;
+      
+      
+      object-fit: contain;
+      color: white;
+
+ }
+ 
+  
+}
+
+.ham{
+  display: none;
+}
+
+@media  (max-width: 850px) {
+
+  .ham{
+
+    display: flex;
+    position: fixed;
+    
+      right: 30px;
+      margin-top: 0px;
+      width: 1.5rem;
+      
+      
+      object-fit: contain;
+      color: white;
+
+ }
+ 
+  
+}
+
+.cart1{
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-top: 6px;
+}
+

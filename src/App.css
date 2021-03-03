@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background-color: rgba(12,7,26,255);
+}
+
+@media only screen and (min-width: 600px) {
+
+  .App{
+
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+}
+
